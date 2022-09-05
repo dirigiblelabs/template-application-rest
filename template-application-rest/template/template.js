@@ -21,7 +21,7 @@ exports.getTemplate = function (parameters) {
     }, {
         location: "/template-application-rest/api/entity.js.template",
         action: "generate",
-        rename: "gen/api/{{perspectiveName}}/{{fileName}}.js",
+        rename: "gen/api/{{perspectiveName}}/{{name}}.js",
         engine: "velocity",
         collection: "models"
     }];
